@@ -6,4 +6,5 @@ module EventsAndListeners {
 	requires javafx.base;
 	
 	exports es.cursojavafx.demoeventos;
+	opens es.cursojavafx.demoeventos.controllers;
 }
